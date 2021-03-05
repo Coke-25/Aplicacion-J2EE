@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+.bodyLog{
+	background-color: #1E1E2F;
+}
+h1{
+	text-align: center;
+	color: #e14eca!important;
+	font-family: 'Rye', cursive;
+}
+h2{
+	color: white;
+}
+h3{
+	color: white;
+}
+.contLog{
+	background-color: #27293D;
+	width: 40vw!important;
+	border-radius: 5px;
+	margin-top: 10vh;
+}
+.rowLog{
+	padding: 2rem;
+}
+/*Fila de inputs*/
+.rowInputLog{
+	display: flex;
+	margin-bottom: 1rem;
+}
+.iconDivLog{
+	width: 43px;
+	background-color: #1E1E2F;
+	display: flex;
+	border-radius: 5px 0px 0px 5px;
+	border: 3px solid #B20588;
+	border-right: hidden;
+}
+.iconLog{
+	color: #A9A9A9!important;
+	width: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logInput{
+	border-radius: 0px 5px 5px 0px;
+	border: 3px solid #B20588;
+	border-left: hidden!important;
+	background-color: #1E1E2F;
+	color: #A9A9A9!important;
+}
+.logInput:focus{
+	background-color: #1E1E2F;
+	border: 3px solid #EE08B6;
+	box-shadow: none;
+}
+.btnPrincipal{
+	border: 0px;
+	border-radius: 18px!important;
+	background-image: linear-gradient(to bottom left,#e14eca,#ba54f5)!important;
+	transition: border-radius 1s;
+	box-shadow: none!important;
+}
+.btnPrincipal:hover{
+	border-radius: 5px!important;
+	transition: border-radius 1s;
+}
+.btnSecundario{
+	color: #e14eca!important;
+	border-color: #e14eca!important;
+	border-radius: 18px!important;
+	box-shadow: none!important;
+	transition: border-radius 1s;
+}
+.btnSecundario:hover{
+	background-color: transparent;
+	border-radius: 5px!important;
+	transition: border-radius 1s;
+}
+.btnSecundario:active{
+	background-color: transparent!important;
+}
+/*Página de registro*/
+.RegInput{
+	border-radius: 5px 5px 5px 5px;
+	border: 3px solid #B20588;
+	background-color: #1E1E2F;
+	color: #A9A9A9!important;
+	margin-bottom: 1rem;
+}
+.RegInput:focus{
+	background-color: #1E1E2F;
+	border: 3px solid #EE08B6;
+	box-shadow: none;
+}
+#Reginfo{
+	color: white;
+	font-size: 25px;
+}
+
+/* -- Carrito --*/
+.bodyCarrito{
+	background-color: #27293D;
+}
+.rowTabla{
+	display: flex;
+}
+.divTabla{
+	margin: 0 auto;
+}
+#titulo{
+	text-align: left;
+	margin-top: 1rem;
+	font-size: 2.5vw;
+}
+#usuarioActual{
+	margin-top: 1rem;
+	text-align: right;
+	font-size: 2vw;
+}
+#usuarioActualTt{
+	color: #EE08B6;
+}
+.colLogout{
+	display: flex;
+}
+.colLogout>form{
+	margin: auto;
+}
+#logoutIcon{
+	width: 40px;
+	height: 40px;
+}
+.cabeceraCarrito{
+	border-bottom: 5px solid #EE08B6;
+	background-color: #1E1E2F;
+}
+#h2Libro{
+	margin-top: 2rem;
+}
+.lbLibro{
+	color: white;
+	font-size: 20px;
+}
+#selectLibro{
+	display: inline-block;
+	width: 40vw!important;
+}
+#cantLibro{
+	width: 100px;
+	display: inline-block;
+}
+#btnAgregarLibro{
+	height: 40px!important;
+	margin-bottom: 5px;
+}
+/* -- Confirmacion --*/
+#ttlConfirmacion{
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	font-size: 40px;
+}
